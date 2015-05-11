@@ -1,0 +1,11 @@
+---
+
+- name: First play
+  hosts: all
+  roles:
+    - role1
+
+- name: second play
+  hosts: all
+  roles:
+    - role2
